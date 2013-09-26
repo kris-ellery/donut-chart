@@ -124,19 +124,19 @@
 
   var chartContainer = document.querySelector('.donut-chart');
   var chartData = {
-    total: 300,
+    total: 360,
     wedges: [{
-      color: '#5ccef6',
+      color: '#ac92ec',
       value: 50
     }, {
-      color: '#fa6272',
+      color: '#4fc1e9',
+      value: 200
+    }, {
+      color: '#a0d468',
       value: 80
     }, {
-      color: '#967adc',
-      value: 40
-    }, {
-      color: '#37bc9b',
-      value: 130
+      color: '#ed5565',
+      value: 30
     }]
   };
   
