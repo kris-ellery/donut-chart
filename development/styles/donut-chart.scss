@@ -1,0 +1,107 @@
+/**
+  * Donut Chart
+  * --------------------------------------------------
+  */
+
+.donut-chart {
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #f5f7fa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.outer-circle,
+.inner-circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.outer-circle {
+  top: 6%;
+  left: 6%;
+  right: 6%;
+  bottom: 6%;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.inner-circle {
+  top: 22%;
+  left: 22%;
+  right: 22%;
+  bottom: 22%;
+  background-color: #f5f7fa;
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.inner-circle-label,
+.inner-circle-value {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.inner-circle-label {
+  font-size: 18px;
+  line-height: 1;
+  margin-top: -30px;
+  color: #aab2bd;
+}
+
+.inner-circle-value {
+  font-size: 42px;
+  line-height: 1;
+  font-weight: bold;
+  margin-top: -12px;
+  color: #656d78;
+}
+
+.wedge-container,
+.wedge,
+.wedge-extension,
+.wedge-label {
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s linear;
+}
+
+.wedge,
+.wedge-extension {
+  box-shadow: inset 0 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.wedge-value {
+  display: block;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 30px;
+  margin-left: -15px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wedge-extension {
+  z-index: 100;
+}
+
+.wedge {
+  z-index: 200;
+}
+
+.wedge-label {
+  z-index: 300;
+}

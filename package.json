@@ -1,0 +1,30 @@
+{
+  "name": "donut-chart",
+  "title": "Donut Chart",
+  "version": "0.2.0",
+  "author": {
+    "name": "Kris Olszewski",
+    "url": "http://www.kolszewski.com/"
+  },
+  "description": "JavaScript driven donut chart.",
+  "dependencies": {
+    "time-grunt": "*"
+  },
+  "devDependencies": {
+    "grunt": "0.4.X",
+    "load-grunt-tasks": "*",
+    "grunt-notify": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-htmlmin": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-csscomb": "*",
+    "grunt-csso": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-stylestats": "*"
+  }
+}

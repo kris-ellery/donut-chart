@@ -1,0 +1,54 @@
+/**
+  * Demo scaffolding
+  * --------------------------------------------------
+  */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #434a54;
+  position: relative;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+}
+
+.row {
+  display: block;
+  width: 300px;
+  margin: 50px auto;
+  animation: fadeIn .4s ease-in .4s both;
+  &:before,
+  &:after {
+    content: ' ';
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+  @media only screen and (min-width: 600px) {
+    width: 600px;
+  }
+}
+
+.column {
+  float: left;
+  width: 300px;
+  padding: 25px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// Import Component
+@import 'donut-chart';

@@ -23,3 +23,8 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .idea
+.sass-cache
+
+# Folders to ignore
+node_modules
+production
