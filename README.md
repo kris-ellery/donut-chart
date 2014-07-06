@@ -1,7 +1,7 @@
 # Donut Chart
-JavaScript driven donut chart - [http://www.kolszewski.com/lab/donut-chart/](live demo).
+JavaScript driven donut chart - [live demo](http://www.kolszewski.com/lab/donut-chart/).
 
-Please note, this is a proof of concept written in pure JavaScript and works only in modern browsers. Use with caution.
+Please note, this is a proof of concept and works only in modern browsers. Use with caution.
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
