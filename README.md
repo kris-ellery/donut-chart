@@ -1,19 +1,21 @@
 # Donut Chart
 JavaScript driven donut chart - [http://www.kolszewski.com/lab/donut-chart/](live demo).
 
-Please note, this is a proof of concept and only works in modern browsers. Use with caution.
+Please note, this is a proof of concept written in pure JavaScript and works only in modern browsers. Use with caution.
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 ---
 
 ## Create new chart
-*HTML*
+
+**HTML**
 ```html
 <!-- Container - 'data-donut-chart' should be unique -->
 <div class="donut-chart" data-donut-chart="1"></div>
 ```
-*JavaScript*
+
+**JavaScript**
 ```javascript
 // Select container by its unique 'data-donut-chart' attribute
 var container = document.querySelector('[data-donut-chart="1"]');
@@ -45,7 +47,8 @@ Chart.init({
 
 ## Update chart
 You can update each chart with new data and colors.
-*JavaScript*
+
+**JavaScript**
 ```javascript
 // Update chart
 Chart.update({
@@ -53,5 +56,7 @@ Chart.update({
 });
 ```
 
+---
+
 ## To do
-Add ability to dynamically add/remove wedges on chart update
+* Add ability to dynamically add/remove wedges on chart update
